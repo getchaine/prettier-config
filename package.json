@@ -1,0 +1,25 @@
+{
+  "name": "prettier-config",
+  "version": "0.0.1",
+  "description": "Prettier config used at Chaine",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaineApp/prettier-config.git"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "author": "Chaine Inc.",
+  "main": "index.js",
+  "scripts": {
+    "postpublish": "npm publish --ignore-scripts --@chaineapp:registry='https://npm.pkg.github.com'",
+    "deploy": "npm publish"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@chaineapp"
+  }
+}
