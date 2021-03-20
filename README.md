@@ -33,3 +33,22 @@ index 2ecef3d..260838f 100644
  ```
  
  [Check out the `prettier` documentation for more info on sharing configurations](https://prettier.io/docs/en/configuration.html#sharing-configurations).
+ 
+ ## VSCode Setup
+ To use the Prettier we have just installed from VSCode we need to install the [Prettier VSCode extension](https://github.com/prettier/prettier-vscode):
+
+In VSCode terminal, run the following command:
+```sh
+ext install esbenp.prettier-vscode
+```
+
+Open .vscode/settings.json file and confirm:
+- VSCode Prettier extension is configured as the default formatter.
+- Formatting on save is enabled ```.vscode/settings.json```
+
+```json
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
+```
