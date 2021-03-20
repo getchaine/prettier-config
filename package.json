@@ -1,10 +1,10 @@
 {
-  "name": "prettier-config",
+  "name": "@chaineapp/prettier-config",
   "version": "0.0.1",
   "description": "Prettier config used at Chaine",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChaineApp/prettier-config.git"
+    "url": "git+https://github.com/chaineapp/prettier-config.git"
   },
   "keywords": [
     "prettier"
