@@ -1,5 +1,5 @@
 {
-  "name": "@chaineapp/prettier-config",
+  "name": "@chaine/prettier-config",
   "version": "1.0.0",
   "description": "Prettier config used at Chaine",
   "repository": {
