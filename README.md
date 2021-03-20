@@ -1,6 +1,11 @@
 # prettier-config
 A simple Prettier configuration used at Chaine
 
+## Prerequisite
+Prettier must be isntalled as a dev dependency
+```sh
+npm install --save-dev --save-exact prettier
+```
 
 ## Usage
 
