@@ -7,7 +7,7 @@ A simple Prettier configuration used at Chaine
 Install the package using `npm` (or `yarn`)
 
 ```sh
-npm install --save-dev @chaineapp/prettier-config
+npm install --save-dev @chaine/prettier-config
 ```
 
 Add the `prettier` key to your `package.json`
