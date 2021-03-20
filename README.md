@@ -21,7 +21,7 @@ index 2ecef3d..260838f 100644
    "keywords": [
      "prettier"
    ],
-+  "prettier": "@chaineapp/prettier-config",
++  "prettier": "@chaine/prettier-config",
    "license": "MIT",
    "author": "Chaine Inc.",
    "main": "index.js"
