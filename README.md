@@ -14,7 +14,7 @@ Add prettier key to package.json to use config in your project:
 ```
 
 # Config details
-```json
+```js
 {
   printWidth: 120,
   tabWidth: 2,
