@@ -1,8 +1,8 @@
 # prettier-config
-A simple Prettier configuration used at [Chaine](https://chaineapp.com/). 
+A simple Prettier configuration in a lightweight npm package used at [Chaine](https://chaineapp.com/). Use this to standarize code format for your project or accross teams in a large project.
 
 # Quick Start
-If you have prettier already configured, simply install and use:
+If you have Prettier already configured, simply install and use:
 
 ```sh
 npm install --save-dev @chaine/prettier-config
@@ -29,6 +29,7 @@ Add prettier key to package.json to use config in your project:
  
  
 # Set up in 3 steps
+Instructions if you have never used Prettier before.
 
 ## 1. Prerequisite
 Prettier must be installed as a dev dependency
