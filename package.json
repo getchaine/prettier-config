@@ -7,7 +7,12 @@
     "url": "git+https://github.com/chaineapp/prettier-config.git"
   },
   "keywords": [
-    "prettier"
+    "prettier",
+    "prettier config",
+    "prettier settings",
+    "prettier configuration",
+    "prettier javascript",
+    "prettier typescript"
   ],
   "files": [
     "index.js"
