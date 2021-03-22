@@ -1,8 +1,22 @@
 # prettier-config
-A simple Prettier configuration used at Chaine. Set up in 3 steps.
+A simple Prettier configuration used at [Chaine](https://chaineapp.com/). 
+
+# Quick Start
+If you have prettier already configured, simply install and use:
+
+```sh
+npm install --save-dev @chaine/prettier-config
+```
+
+Add prettier key to package.json to use config in your project:
+```
+"prettier": "@chaine/prettier-config",
+```
+
+# Set up in 3 steps.
 
 ## 1. Prerequisite
-Prettier must be isntalled as a dev dependency
+Prettier must be installed as a dev dependency
 ```sh
 npm install --save-dev --save-exact prettier
 ```
