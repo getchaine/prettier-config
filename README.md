@@ -13,7 +13,22 @@ Add prettier key to package.json to use config in your project:
 "prettier": "@chaine/prettier-config",
 ```
 
-# Set up in 3 steps.
+# Config details
+```json
+{
+  printWidth: 120,
+  tabWidth: 2,
+  semi: false,
+  singleQuote: true,
+  bracketSpacing: false,
+  trailingComma: 'none',
+  arrowParens: 'avoid'
+}
+```
+ [Check out the `prettier` documentation for more info on sharing configurations](https://prettier.io/docs/en/configuration.html#sharing-configurations).
+ 
+ 
+# Set up in 3 steps
 
 ## 1. Prerequisite
 Prettier must be installed as a dev dependency
@@ -46,7 +61,6 @@ index 2ecef3d..260838f 100644
    "main": "index.js"
  ```
  
- [Check out the `prettier` documentation for more info on sharing configurations](https://prettier.io/docs/en/configuration.html#sharing-configurations).
  
  ## 3. VSCode Setup
  To use the Prettier we have just installed from VSCode we need to install the [Prettier VSCode extension](https://github.com/prettier/prettier-vscode):
